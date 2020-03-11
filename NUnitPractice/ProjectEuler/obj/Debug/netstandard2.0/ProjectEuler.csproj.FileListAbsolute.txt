@@ -1,0 +1,8 @@
+C:\Users\imnas\dror_sandbox\NUnitPractice\ProjectEuler\bin\Debug\netstandard2.0\ProjectEuler.deps.json
+C:\Users\imnas\dror_sandbox\NUnitPractice\ProjectEuler\bin\Debug\netstandard2.0\ProjectEuler.dll
+C:\Users\imnas\dror_sandbox\NUnitPractice\ProjectEuler\bin\Debug\netstandard2.0\ProjectEuler.pdb
+C:\Users\imnas\dror_sandbox\NUnitPractice\ProjectEuler\obj\Debug\netstandard2.0\ProjectEuler.csprojAssemblyReference.cache
+C:\Users\imnas\dror_sandbox\NUnitPractice\ProjectEuler\obj\Debug\netstandard2.0\ProjectEuler.AssemblyInfoInputs.cache
+C:\Users\imnas\dror_sandbox\NUnitPractice\ProjectEuler\obj\Debug\netstandard2.0\ProjectEuler.AssemblyInfo.cs
+C:\Users\imnas\dror_sandbox\NUnitPractice\ProjectEuler\obj\Debug\netstandard2.0\ProjectEuler.dll
+C:\Users\imnas\dror_sandbox\NUnitPractice\ProjectEuler\obj\Debug\netstandard2.0\ProjectEuler.pdb
