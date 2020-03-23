@@ -1,0 +1,8 @@
+/home/dror/repos/dror_sandbox/Payroll/EmployeePayroll/bin/Debug/netstandard2.0/EmployeePayroll.deps.json
+/home/dror/repos/dror_sandbox/Payroll/EmployeePayroll/bin/Debug/netstandard2.0/EmployeePayroll.dll
+/home/dror/repos/dror_sandbox/Payroll/EmployeePayroll/bin/Debug/netstandard2.0/EmployeePayroll.pdb
+/home/dror/repos/dror_sandbox/Payroll/EmployeePayroll/obj/Debug/netstandard2.0/EmployeePayroll.csprojAssemblyReference.cache
+/home/dror/repos/dror_sandbox/Payroll/EmployeePayroll/obj/Debug/netstandard2.0/EmployeePayroll.AssemblyInfoInputs.cache
+/home/dror/repos/dror_sandbox/Payroll/EmployeePayroll/obj/Debug/netstandard2.0/EmployeePayroll.AssemblyInfo.cs
+/home/dror/repos/dror_sandbox/Payroll/EmployeePayroll/obj/Debug/netstandard2.0/EmployeePayroll.dll
+/home/dror/repos/dror_sandbox/Payroll/EmployeePayroll/obj/Debug/netstandard2.0/EmployeePayroll.pdb
