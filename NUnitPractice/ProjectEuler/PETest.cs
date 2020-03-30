@@ -58,11 +58,33 @@ namespace ProjectEuler
             Console.WriteLine(test.expectedValueOfN());
             */
 
+            /*
             P577 test = new P577();
             Console.WriteLine(test.H(6));
             Console.WriteLine(test.H(20));
             Console.WriteLine(test.SumOfHs(12345));
+            */
 
+            /*
+            P650 test = new P650();
+            //test.S(10);
+            long modulo = 1000000007;
+            //test.SmodM(100, modulo);
+            //Console.WriteLine(test.SmodM(2000, modulo));
+            //Console.WriteLine(test.DmodM(20000, modulo));
+            Console.WriteLine(test.SmodM(20000, modulo));
+            */
+            
+            /*
+            string[] keywords = {"FREE", "FARE", "AREA", "REEF"};
+            P679 test = new P679(keywords);
+            test.InitiateWordSequences();
+            int goal = 30;
+            for (int i=0; i<=goal; i++)
+                Console.WriteLine($"f({i}) = {test.f(i)}");
+            */
+
+            
         }
     }
 }

@@ -52,8 +52,13 @@ namespace ProjectEuler.Tools
 
         public static List<int> PrimeFactorizationPowers(this long n)
         {
-            List<int> powers = new List<int>();
             List<long> factors = PrimeFactorization(n);
+            return PrimeFactorizationPowers(factors);
+        }
+
+        public static List<int> PrimeFactorizationPowers(this List<long> factors)
+        {
+            List<int> powers = new List<int>();
             int i = 0;
             int j;
             while (i < factors.Count) {
@@ -65,6 +70,41 @@ namespace ProjectEuler.Tools
                 i = j;
             }
             return powers;
+        }
+
+        public static List<long> PrimeFactorizationFactors(this List<long> factors)
+        {
+            List<long> uniqueFactors = new List<long>();
+            if (factors.Count == 0) {
+                return uniqueFactors;
+            }
+            uniqueFactors.Add(factors[0]);
+            for (int i=1; i<factors.Count; i++) {
+                if (factors[i] != uniqueFactors[uniqueFactors.Count - 1]) {
+                    uniqueFactors.Add(factors[i]);
+                }
+            }
+
+            return uniqueFactors;
+        }
+
+        public static List<long> PrimeFactorizationFactors(this long n)
+        {
+            List<long> factors = PrimeFactorization(n);
+            return PrimeFactorizationFactors(factors);
+        }
+
+        public static long PowModP(this long a, long b, long p)
+        {
+            long powerBase = a % p;
+
+            long powerExponent = b % (p - 1);
+            long answer = powerBase;
+            for (long pow=1; pow<powerExponent; pow++) {
+                answer *= powerBase;
+                answer %= p;
+            }
+            return answer;
         }
     }
 }
